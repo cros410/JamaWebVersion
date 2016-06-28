@@ -1,0 +1,125 @@
+
+
+/*  */
+* {margin: 0;}
+
+html,
+body { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+  display: table;
+  width: 100%;
+}
+#posicion{
+    float: right;
+}
+
+.clase-general{
+  display: table-row;
+}
+
+footer {
+    height: 160px;
+ }
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.main{
+    height: 70%;
+    margin-top: 30px;
+}
+
+#phola{
+    font-size: 190px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foot{
+    background-color: #808000;   
+    margin-bottom: 0; 
+    width: 100%;
+}
+
+
+.container{
+    height: 133px;   
+    margin-top: 15px;
+    
+}
+
+.ul .li{
+    margin-top: 8px;
+}
+
+
+.triangulitos{    
+    width: 100%;
+    background-image: url('../img/pie.png');
+    background-repeat: repeat-x;
+    height: 27px;
+    margin-bottom: 0;    
+}
+
+#idh6{
+    color: #fff;
+    font-size: 16px;   
+ }
+ 
+ #idh6-2{
+    color: #fff;
+    font-size: 16px;
+ }
+
+ body {
+
+  background:url(Fondox.net_textura-de-pared-de-madera_1280x800.jpg) center center cover repeat fixed;
+
+}
+
+@media only screen and (max-width: 20000px) {
+
+  body {
+
+    background-image: url("../img/Fondox.net_textura-de-pared-de-madera_1280x800.jpg");
+
+  }
+
+}
+
+
+/* *****************  H1  *****************  */
+
+@media (max-width: 1200px) {
+    #phola {
+        font-size:190px;
+    }
+}
+
+@media (max-width: 1199px ) and (min-width:990px ){
+    #phola {
+        font-size:150px;
+    }
+}
+
+@media (max-width: 989px ) and (min-width:780px ) {
+    #phola {
+        font-size:120px;
+    }
+}
+
+@media (max-width: 769px ) {
+    #phola {
+        font-size:85px;
+    }
+}
+
+
+
+ 
